@@ -1,0 +1,154 @@
+    1  man sudo_root
+    2  sudo su
+    3  sudo apt-get -y update
+    4  podman
+    5  sudo apt-get -y install podman
+    6  sudo apt-get -y update
+    7  sudo apt-get -y install podman
+    8  wget -nv https://download.opensuse.org/repositories/devel:kubic:libcontainers:stable/xUbuntu_${VERSION_ID}/Release.key -O- | sudo apt-key add -
+    9  sudo apt-get -qq --yes install podman
+   10  podman
+   11  podman info
+   12  sudo podman info
+   13  podman
+   14  sudo podman
+   15  podman ps
+   16  podman images
+   17  podman pull node
+   18  podman ps
+   19  export docker=podman
+   20  docker ps
+   21  podman ps
+   22  alias docker=podman
+   23  docker ps
+   24  vi ~/.bashrc 
+   25  source ~/.bashrc
+   26  docker
+   27  podman
+   28  podman ps
+   29  podman pull node
+   30  npm
+   31  sudo apt-get install git
+   32  git clone https://github.com/karllhughes/node-docker-demo.git
+   33  cd node-docker-demo/
+   34  ls
+   35  docker build -t node-docker .
+   36  docker run -d --rm -p 5432:5432 -e POSTGRES_USER=admin -v $(pwd)/.data:/var/lib/postgresql/data -v $(pwd)/sql:/sql --name nd-db postgres:9.6
+   37  cd ..
+   38  podman ps
+   39  podman images
+   40  podman system prune -f
+   41  podman image prune 0f
+   42  podman image prune -f
+   43  cd ..
+   44  ls
+   45  cd roselynrodriguez/
+   46  ls
+   47  rm -rf node-docker-demo/
+   48  mkdir Projects
+   49  cd Projects/
+   50  ls
+   51  clear
+   52  ls
+   53  git clone https://github.com/srcmaxim/nodeapp.git
+   54  cd nodeapp/
+   55  podman build srcmaxim/nodeapp:latest .
+   56  cd ..
+   57  rm -rf nodeapp/
+   58  git clone https://github.com/cmuth001/Dockerizing-a-NodeJS-web-app.git
+   59  cd Dockerizing-a-NodeJS-web-app/
+   60  ls
+   61  docker build -t node-web-app .
+   62  podman ps
+   63  docker run -p 49160:3000 -d node-web-app
+   64  docker ps
+   65  docker run -p 49160:3000 -d node-web-app
+   66  docker logs b686d5fa0918
+   67  vi /etc/host
+   68  vi /etc/hosts
+   69  podman-compose
+   70  pip3
+   71  sudo apt install python3-pip
+   72  cd ..
+   73  rm -rf Dockerizing-a-NodeJS-web-app/
+   74  ls
+   75  git clone https://github.com/adamhalasz/docker-node-example.git
+   76  cd docker-node-example/
+   77  ls
+   78  docker build --tag docker-node-example-image .
+   79  docker run --rm --name docker-node-example-container --publish 9000:9000 --volume $(pwd):/usr/src/app docker-node-example-image
+   80  cd ..
+   81  ls
+   82  git clone https://github.com/bradtraversy/docker-node-mongo.git
+   83  cd docker-node-
+   84  cd docker-node-mongo/
+   85  ls
+   86  podman-compose up
+   87  podman-compose
+   88  pip3 install podman-compose
+   89  podman-comp;ose
+   90  podman-compose
+   91  chmod +x ~/.local/bin/podman-compose
+   92  podman-compose
+   93  cat /proc/cpuinfo | grep "model name"
+   94  sudo apt-get install sysinfo
+   95  sysinfo
+   96  rsysinfo
+   97  gnome-software refresh
+   98  sudo apt-get update
+   99  gnome-software refresh
+  100  sudo apt install gnome-software
+  101  gnome-software refresh
+  102  sudo apt install gnome-software
+  103  sudo dpkg --configure -a
+  104  uname 
+  105  uname -a
+  106  snap remove snap-store
+  107  sudo snap remote snap-store
+  108  sudo snap remove snap-store
+  109  sudo snap install snap-store
+  110  gnome-terminal
+  111  cd /usr/bin
+  112  gnome-te
+  113  ls 
+  114  sudo apt update
+  115  apt list
+  116  sudo apt get
+  117  sudo apt-get
+  118  clear
+  119  sudo apt install gnome-shell-extension-desktop-icons
+  120  sudo apt update
+  121  sudo apt upgrade
+  122  sudo apt-get -f install
+  123  sudo apt upgrade
+  124  history
+  125  sudo apt install gnome-shell-extension-desktop-icons
+  126  csdf df
+  127  clear
+  128  pwd
+  129  cd Desktop/
+  130  ls -lrt
+  131  cd Projects
+  132  ls -lrt
+  133  cd ~/.ssh
+  134  ls -lrta
+  135  ssh-keygen -t ed25519 -C "roselyn.v.rodriguez@gmail.com" 
+  136  ls -lrta
+  137  eval "$(ssh-agent -s)"
+  138  sudo -s -H
+  139  git
+  140  pwd
+  141  cd ~
+  142  pwd
+  143  ls -lrt
+  144  cd Desktop
+  145  ls -lrt
+  146  mkdir Projects
+  147  history
+  148  pwd
+  149  git status
+  150  cd Projects/
+  151  git clone git@github.com:roselyn277/ubuntu-configuration.git
+  152  ls -lrt
+  153  cd ubuntu-configuration/
+  154  history > ubuntu_history.txt
