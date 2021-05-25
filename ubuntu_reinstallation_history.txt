@@ -1,0 +1,140 @@
+    1  cd Projects
+    2  cd Desktop/
+    3  mkdir Projects
+    4  cd Projects/
+    5  cd ~/.ssh
+    6  ls -lrta
+    7  command -v nvm
+    8  source ~/.bash_profile
+    9  nvm install --lts
+   10  cd Desktop/
+   11  cd Projects/
+   12  cd todo-app/
+   13  npm run hot
+   14  cd Desktop/
+   15  cd Projects
+   16  ls 
+   17  ls
+   18  ~/.ssh
+   19  cd ~/.ssh
+   20  ls -lrta
+   21  ssh-keygen -t ed25519 -C "roselyn.v.rodriguez@gmail.com
+   22  "
+   23  ls -lrta
+   24  eval "$(ssh-agent -s)"
+   25  Agent pid 59566
+   26  agent pid 59566
+   27  sudo -s -H
+   28  ls -lrta
+   29  ls -lrt
+   30  cat id_ed25519.pub
+   31  cd ~/Desktop/Projects/
+   32  ls -lrt
+   33  git clone git@github.com:roselyn277/ubuntu-configuration.git
+   34  git status
+   35  ls -lrt
+   36  git clone git@github.com:roselyn277/todo-app.git
+   37  cd todo-app/
+   38  ls -lrt
+   39  composer install
+   40  composer update
+   41  npm install
+   42  sudo apt install npm
+   43  sudo apt install nvm
+   44  npm install
+   45  sudo apt install curl 
+   46  cd ..
+   47  curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
+   48  source ~/.profile   
+   49  nvm install node 
+   50  cd todo-app/
+   51  npm install
+   52  php artisan serve
+   53  php artisan route:list
+   54  php artisan serve
+   55  php artisan key:generate
+   56  php artisan serve
+   57  php artisan migrate
+   58  php artisan db:seed
+   59  php artisan serve
+   60  cd Desktop/
+   61  cd ..
+   62  cd Downloads/
+   63  ls 
+   64  un sudo dpkg -i dbeaver-ce_21.0.5_amd64.deb 
+   65  sudo dpkg -i dbeaver-ce_21.0.5_amd64.deb 
+   66  dbeaver &
+   67  nvm --version
+   68  nvm
+   69  npm
+   70  cd ../Desktop/Projects/todo-app/
+   71  npm run hot
+   72  node -v
+   73  cd ..
+   74  ls -lrt
+   75  curl -sL https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh -o install_nvm.sh
+   76  bash install_nvm.sh
+   77  command -v nvm
+   78  which nvm
+   79  sudo visudo
+   80  cd ~
+   81  cd Desktop/
+   82  cd Projects/
+   83  sudo apt update
+   84  sudo apt install php-cli unzip
+   85  cd ~
+   86  curl -sS https://getcomposer.org/installer -o composer-setup.php
+   87  sudo apt  install curl
+   88  curl -sS https://getcomposer.org/installer -o composer-setup.php
+   89  ls -lrt
+   90  HASH=`curl -sS https://composer.github.io/installer.sig`
+   91  echo $HASH
+   92  php -r "if (hash_file('SHA384', 'composer-setup.php') === '$HASH') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+   93  sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+   94  composer
+   95  php -version
+   96  sudo apt-get install php7.2-mbstring
+   97  sudo apt update
+   98  sudo apt install php-cli
+   99  sudo apt install php-mbstring
+  100  sudo apt install php-mysql
+  101  sudo apt install php-xml
+  102  mysql -uroot -p
+  103  sudo apt install mysql-server
+  104  mysql -uroot -p
+  105  sudo mysql_secure_installation
+  106  mysql -uroot -p
+  107  sudo mysql_secure_installation
+  108  mysql -uroot -p
+  109  sudo mysql
+  110  mysql -uroot -p
+  111  sudo mysql -u root -p
+  112  sudo mysql_secure_installation
+  113  sudo mysql
+  114  mysql_upgrade 
+  115  mysql -u root -p
+  116  # sudo service mysql stop
+  117  # sudo mysqld_safe --no-grant-tables &
+  118  sudo systemctl stop mysql
+  119  sudo apt purge mysql-server mysql-client mysql-common mysql-server-core-* mysql-client-core-*
+  120  sudo rm -rf /etc/mysql /var/lib/mysql /var/log/mysql
+  121  sudo apt autoremove
+  122  sudo apt autoclean
+  123  mysql 
+  124  cd ~
+  125  mysql -v
+  126  sudo apt update
+  127  sudo apt install mysql-server
+  128  sudo systemctl status mysql
+  129  mysql -uroot -p
+  130  sudo mysql_secure_installation
+  131  mysql -uroot -p
+  132  ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'secret'; 
+  133  sudo mysql
+  134  sudo service mysql restart
+  135  mysql -uroot -p
+  136  history
+  137  cd Desktop/
+  138  cd Projects/
+  139  cd ubuntu-configuration/
+  140  history > ubuntu_reinstallation_history.txt
