@@ -1,0 +1,260 @@
+    1  cd ~
+    2  ls
+    3  cd Downloads
+    4  ls
+    5  wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
+    6  sudo apt install ./teamviewer_amd64.deb
+    7  sudo snap install slack --classic
+    8  cd ~/.ssh
+    9  ls
+   10  ls -lrta
+   11  ssh-keygen -t rsa -b 4096 -C "rrodriguez@optimy.com"
+   12  ls -lrta
+   13  eval "$(ssh-agent -s)"
+   14  ssh-add -K /Users/you/.ssh/id_rsa
+   15  ls -lrta
+   16  cat id_rsa.pub
+   17  cat id_rsa
+   18  cd ~
+   19  ls -lrt
+   20  d optimy-exercise/
+   21  cd ..
+   22  cd ~
+   23  cd optimy-exercise;  git clone git@bitbucket.org:optimy/optimyapp.git
+   24  sudo apt install git
+   25  git checkout exercise-roselyn
+   26  cd optimyapp/
+   27  git checkout exercise-roselyn
+   28  code .
+   29  cd ~/home
+   30  cd ~
+   31  ls 
+   32  pwd
+   33  cd /
+   34  ls
+   35  history
+   36  ls -lrta
+   37  history
+   38  cd /home/
+   39  ls
+   40  cd roselynrodriguez/
+   41  ls -lrt
+   42  ./install_sh.sh
+   43  clear
+   44  ls -lrt
+   45  pwd
+   46  echo $HOME
+   47  ls
+   48  cat install_sh.sh 
+   49  sudo ./install_sh.sh
+   50  ls
+   51  sudo sh install_sh.sh
+   52  ls
+   53  vi install_sh.sh 
+   54  ssh-keygen 
+   55  cd ~/.ssh/
+   56  ls
+   57  ls -ahl
+   58  cd
+   59  bash install_sh.sh 
+   60  bash install_sh.sh init
+   61  ls
+   62  cd optimy-workspace/
+   63  ls
+   64  cd .
+   65  cd ..
+   66  rm optimy-workspace/ -rf
+   67  bash install_sh.sh init
+   68  chmod +x install_sh.sh 
+   69  ./install_sh.sh init
+   70  rm optimy-workspace/ -rf
+   71  gedit install_sh.sh 
+   72  ./install_sh.sh "init'
+   73  ./install_sh.sh "init"
+   74  ls
+   75  rm optimy-workspace/ -rf
+   76  ./install_sh.sh init
+   77  ls
+   78  ./install_sh.sh init
+   79  ./install_sh.sh
+   80  ls /
+   81  ls
+   82  exit
+   83  git clone git@github.com:roselyn277/secret.git
+   84  cd secret/
+   85  ls
+   86  cd wip
+   87  ls
+   88  cd optimyapp/
+   89  ls
+   90  ls -lrt
+   91  cd ..
+   92  cd optimy/
+   93  code .
+   94  git clone git@github.com:roselyn277/secret.git
+   95  cat ~/.ssh/rsa_id
+   96  ls ~/.ssh/rsa_id
+   97  cd ~/.ssh/rsa_id
+   98  cd ~/.ssh
+   99  ls -la
+  100  cat id_rsa.pub
+  101  code .
+  102  cd ~
+  103  sudo apt-get install lm-sensors
+  104  sudo sensors-detect
+  105  sensors | grep -i fan
+  106  grep -i fan
+  107  sudo apt-get install hardinfo
+  108  history
+  109  git
+  110  git status
+  111  git checkout exercise-roselyn
+  112  git status
+  113  vi install_sh.sh 
+  114  nvm
+  115  ./install_sh.sh 
+  116  vi install_sh.sh 
+  117  nvm
+  118  npm -v
+  119  nvm install 9.3
+  120  nvm use default
+  121  npm 
+  122  cat install_sh.sh 
+  123  ./install_sh.sh 
+  124  ls
+  125  cd optimy-workspace/
+  126  ls
+  127  cd ..
+  128  vi install_sh.sh 
+  129  cd optimy-workspace/docker-optimyapp/
+  130  ls
+  131  cp config-example config
+  132  cat config
+  133  gedit config
+  134  cd optimy-workspace/
+  135  ls
+  136  cd .
+  137  ls
+  138  cd ..
+  139  ls
+  140  rm docker-optimyapp/ -Rf
+  141  ls
+  142  docker container ls
+  143  groups
+  144  nvm 
+  145  npm v
+  146  npm -v
+  147  cat ~/.bashrc 
+  148  nvm install 9.3
+  149  nvm use 9.3
+  150  nvm alias default 9.3
+  151  cd ~/
+  152  ls
+  153  cd optimy-workspace/
+  154  cd optimyapp/
+  155  pwd
+  156  cd ..
+  157  cd ci
+  158  ls
+  159  cd cip
+  160  ls
+  161  cd frontend
+  162  pwd
+  163  cd ../../docker-optimyapp/
+  164  ./stack build
+  165  ./stack up
+  166  docker volume create --name=optimy_mysql-data
+  167  ./stack up
+  168  ./stack migrate
+  169  cd ..
+  170  cd ..
+  171  cd optimyapp/
+  172  ls
+  173  code .
+  174  code .
+  175  sudo nano /etc/gdm3/custom.conf
+  176  history
+  177  sudo nano /etc/gdm3/custom.conf
+  178  code .
+  179  sudo apt-mark showmanual
+  180  history
+  181  cd //
+  182  cd ..
+  183  cd ~
+  184  cd optimy-workspace/
+  185  ls
+  186  cd docker-optimyapp/
+  187  ls
+  188  ./stack up
+  189  ./stack migrate
+  190  ls -lrt
+  191  pwd
+  192  cd images
+  193  ls
+  194  cd ..
+  195  ls 
+  196  stack\
+  197  stack
+  198  ./stack
+  199  ./stack -h
+  200  ./stack -test
+  201  ./stack up
+  202  docker container ps
+  203  ./stack up
+  204  ./stack migrate
+  205  mysql -uroot -proot 
+  206  cd /optimy/tmp/logs/
+  207  cd ..
+  208  cd optimyapp/
+  209  cd tmp/logs
+  210  ls
+  211  ls -lrt main_log.log 
+  212  chmod +u x
+  213  chmod +u x main_log.log 
+  214  chmod +x main_log.log 
+  215  sudo chmod +x main_log.log 
+  216  ls 
+  217  ls -lrt
+  218  ./stack migrate
+  219  cd ~/optimy-workspace/docker-optimyapp/
+  220  ./stack migrate
+  221  sudo apt update
+  222  sudo apt install mysql-server
+  223  docker ps
+  224  ./stack migrate
+  225  sudo mysql_secure_installation
+  226  mysql -uroot -p
+  227  mysql -uroot -psecret
+  228  mysql -u root -p
+  229  docker ps
+  230  mysql -u root -p
+  231  mysql -uroot -proot --port=4000
+  232  php
+  233  docker container ps
+  234  cd ../optimyapp/
+  235  sudo chmod 777 -R tmp/
+  236  ls -lrt 
+  237  cd tmp/
+  238  ls -lrt
+  239  cd ..
+  240  sudo chmod -R o+rw tmp/logs/main_log.log
+  241  ls -lty
+  242  ls -lrt
+  243  cd backend
+  244  ls
+  245  sudo chmod 777 tmp -Rf
+  246  sudo chmod 777 static/module/ -R
+  247  sudo chmod 777 static/module/ -Rf
+  248  bower install
+  249  cd ../admin
+  250  bower install
+  251  cd ../backend_res/
+  252  npm run dev
+  253  docker container ps
+  254  docker exec -it 56_back_1 bash
+  255  cd
+  256  docker exec -it 56_back_1 bash
+  257  docker container ls
+  258  history
+  259  cd ~/Desktop/
+  260  history > setup_troubleshoot.txt

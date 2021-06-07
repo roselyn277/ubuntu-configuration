@@ -1,0 +1,18 @@
+Team Viewer
+Visual Studio
+Tilix : Terminal
+Kazam : Screen Recorder
+GIMP : Photo Editor
+
+File Compare:
+  sudo apt-get update -y
+  sudo apt-get install -y meld
+
+
+Tilix
+
+Terminal 
+ 
+
+
+
