@@ -1,10 +1,14 @@
+Slack
 Team Viewer
 Visual Studio
+Git
+Chrome
+Dbeaver
 Tilix : Terminal
 Kazam : Screen Recorder
 GIMP : Photo Editor
 
-File Compare:
+File Compare: Meld
   sudo apt-get update -y
   sudo apt-get install -y meld
 
@@ -15,4 +19,5 @@ Terminal
  
 
 
+ngrok
 
