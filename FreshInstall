@@ -21,3 +21,43 @@ Terminal
 
 ngrok
 
+
+
+Sep10
+
+Chrome
+    wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+    sudo dpkg -i google-chrome-stable_current_amd64.deb
+
+Slack:
+    sudo snap install slack --classic
+    
+Kazam Installation: 
+   sudo add-apt-repository ppa:sylvain-pineau/kazam
+   sudo apt-get update
+   sudo apt-get install kazam
+   kazam --version
+
+VSCode
+   sudo snap install --classic code
+
+Git
+    sudo apt update
+    sudo apt install git
+    git config --global user.name "Roselyn Rodriguez"
+    git config --global user.email "rrodriguez@optimy.com"
+
+Dbeaver:
+    sudo apt -y  install openjdk-11-jdk openjdk-11-jre
+   java -version
+   sudo apt -y install default-jdk
+   java -version
+   wget -O - https://dbeaver.io/debs/dbeaver.gpg.key | sudo apt-key add -
+   echo "deb https://dbeaver.io/debs/dbeaver-ce /" | sudo tee /etc/apt/sources.list.d/dbeaver.list
+   sudo apt update
+   sudo apt install dbeaver-ce
+
+   
+   
+   
+   
