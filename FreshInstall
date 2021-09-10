@@ -46,6 +46,10 @@ Git
     sudo apt install git
     git config --global user.name "Roselyn Rodriguez"
     git config --global user.email "rrodriguez@optimy.com"
+    ssh-keygen
+    eval $(ssh-agent)
+    ssh-add ~/.ssh/id_rsa
+
 
 Dbeaver:
     sudo apt -y  install openjdk-11-jdk openjdk-11-jre
