@@ -46,6 +46,10 @@ Git
     eval $(ssh-agent)
     ssh-add ~/.ssh/id_rsa
 
+Mysql
+    sudo apt update
+    sudo apt install mysql-server
+
 
 Dbeaver:
     sudo apt -y  install openjdk-11-jdk openjdk-11-jre
