@@ -61,7 +61,11 @@ Dbeaver:
    sudo apt update
    sudo apt install dbeaver-ce
 
+Postman
+  sudo snap install postman
    
-   
-   
+
+ngrok
+  https://dashboard.ngrok.com/get-started/setup
+
    
