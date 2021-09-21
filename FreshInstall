@@ -13,17 +13,13 @@ File Compare: Meld
   sudo apt-get install -y meld
 
 
-Tilix
-
-Terminal 
- 
-
-
-ngrok
-
-
-
 Sep10
+
+Tilix
+sudo apt update
+sudo apt install tilix
+
+
 
 Chrome
     wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
