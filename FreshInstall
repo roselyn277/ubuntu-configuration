@@ -18,8 +18,7 @@ Sep10
 Tilix
 sudo apt update
 sudo apt install tilix
-
-
+sudo update-alternatives --config x-terminal-emulator
 
 Chrome
     wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
